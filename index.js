@@ -1,7 +1,7 @@
 function theBeatlesPlay(arr1, arr2) {
   var final = [];
   for (var i = 0; i < arr1.length; i++) {
-    final.push(arr1[i] + arr2[i]);
+    final.push(arr1[i] + " plays " + arr2[i]);
   }
   return final;
 }
